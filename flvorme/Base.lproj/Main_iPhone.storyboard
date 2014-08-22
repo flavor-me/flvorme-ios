@@ -29,7 +29,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4lF-TX-xbs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="635" y="-235"/>
+            <point key="canvasLocation" x="509" y="-239"/>
         </scene>
         <!--View Controller - House-->
         <scene sceneID="eC6-xT-WWs">
@@ -56,7 +56,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4re-Cu-BaB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="635" y="494"/>
+            <point key="canvasLocation" x="509" y="490"/>
         </scene>
         <!--View Controller - 친구-->
         <scene sceneID="4nA-rD-eMy">
@@ -83,7 +83,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zy3-aH-LWD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="635" y="1993"/>
+            <point key="canvasLocation" x="509" y="1989"/>
         </scene>
         <!--View Controller - 컴퍼니-->
         <scene sceneID="4Xh-Ug-GFf">
@@ -110,7 +110,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="00Z-gX-ejI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="635" y="1238"/>
+            <point key="canvasLocation" x="509" y="1234"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Vex-rW-GRa">
@@ -132,13 +132,13 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FNP-y4-bzi" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-510" y="556"/>
+            <point key="canvasLocation" x="-652" y="900"/>
         </scene>
         <!--Navigation Controller - 타임라인-->
         <scene sceneID="S92-rG-pPp">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="49s-yA-m6T" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="타임라인" image="timeline-32.png" id="Y7k-pt-WSm"/>
+                    <tabBarItem key="tabBarItem" title="타임라인" image="tb-timeline" id="Y7k-pt-WSm"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="jvm-qS-nk3">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -151,13 +151,13 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YfM-hb-oM4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="-235"/>
+            <point key="canvasLocation" x="13" y="-239"/>
         </scene>
         <!--Navigation Controller - 맛집-->
         <scene sceneID="ZT3-ph-yjR">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="eAs-Ro-kNk" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="맛집" image="taste-32.png" id="cVe-po-ryK"/>
+                    <tabBarItem key="tabBarItem" title="맛집" image="tb-taste" id="cVe-po-ryK"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ywe-sJ-lD3">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -170,13 +170,13 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bln-Ip-75i" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="494"/>
+            <point key="canvasLocation" x="13" y="490"/>
         </scene>
         <!--Navigation Controller - 컴퍼니-->
         <scene sceneID="Oen-Hb-5RP">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="UQd-UA-6WD" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="컴퍼니" image="company-32.png" id="fPx-Lh-nWU"/>
+                    <tabBarItem key="tabBarItem" title="컴퍼니" image="tb-company" id="fPx-Lh-nWU"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="uhL-0g-Omj">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -189,13 +189,13 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IvQ-QJ-OdC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="1238"/>
+            <point key="canvasLocation" x="13" y="1234"/>
         </scene>
         <!--Navigation Controller - 친구-->
         <scene sceneID="GEO-ur-id2">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qSc-LR-8Hi" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="친구" image="friendly-32.png" id="gKG-0i-DIi"/>
+                    <tabBarItem key="tabBarItem" title="친구" image="tb-friends" id="gKG-0i-DIi"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="3l4-fd-1wR">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -208,14 +208,14 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6A1-1y-TKf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="1993"/>
+            <point key="canvasLocation" x="13" y="1989"/>
         </scene>
     </scenes>
     <resources>
-        <image name="company-32.png" width="32" height="32"/>
-        <image name="friendly-32.png" width="32" height="32"/>
-        <image name="taste-32.png" width="32" height="32"/>
-        <image name="timeline-32.png" width="32" height="32"/>
+        <image name="tb-company" width="32" height="32"/>
+        <image name="tb-friends" width="32" height="32"/>
+        <image name="tb-taste" width="32" height="32"/>
+        <image name="tb-timeline" width="32" height="32"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
