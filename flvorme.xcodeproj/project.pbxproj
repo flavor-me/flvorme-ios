@@ -23,6 +23,10 @@
 		CAE97B0A19A6EBB100DC9A17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE97AE619A6EBB100DC9A17 /* UIKit.framework */; };
 		CAE97B1219A6EBB100DC9A17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAE97B1019A6EBB100DC9A17 /* InfoPlist.strings */; };
 		CAE97B1419A6EBB100DC9A17 /* flvormeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE97B1319A6EBB100DC9A17 /* flvormeTests.m */; };
+		CAE97B2719A6F16000DC9A17 /* company-32.png in Resources */ = {isa = PBXBuildFile; fileRef = CAE97B2319A6F16000DC9A17 /* company-32.png */; };
+		CAE97B2819A6F16000DC9A17 /* friendly-32.png in Resources */ = {isa = PBXBuildFile; fileRef = CAE97B2419A6F16000DC9A17 /* friendly-32.png */; };
+		CAE97B2919A6F16000DC9A17 /* taste-32.png in Resources */ = {isa = PBXBuildFile; fileRef = CAE97B2519A6F16000DC9A17 /* taste-32.png */; };
+		CAE97B2A19A6F16000DC9A17 /* timeline-32.png in Resources */ = {isa = PBXBuildFile; fileRef = CAE97B2619A6F16000DC9A17 /* timeline-32.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +62,10 @@
 		CAE97B0F19A6EBB100DC9A17 /* flvormeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "flvormeTests-Info.plist"; sourceTree = "<group>"; };
 		CAE97B1119A6EBB100DC9A17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CAE97B1319A6EBB100DC9A17 /* flvormeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = flvormeTests.m; sourceTree = "<group>"; };
+		CAE97B2319A6F16000DC9A17 /* company-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "company-32.png"; path = "image/tabbar/company-32.png"; sourceTree = "<group>"; };
+		CAE97B2419A6F16000DC9A17 /* friendly-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "friendly-32.png"; path = "image/tabbar/friendly-32.png"; sourceTree = "<group>"; };
+		CAE97B2519A6F16000DC9A17 /* taste-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "taste-32.png"; path = "image/tabbar/taste-32.png"; sourceTree = "<group>"; };
+		CAE97B2619A6F16000DC9A17 /* timeline-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "timeline-32.png"; path = "image/tabbar/timeline-32.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +95,7 @@
 		CAE97AD619A6EBB100DC9A17 = {
 			isa = PBXGroup;
 			children = (
+				CAE97B1D19A6F01600DC9A17 /* image */,
 				CAE97AE819A6EBB100DC9A17 /* flvorme */,
 				CAE97B0D19A6EBB100DC9A17 /* flvormeTests */,
 				CAE97AE119A6EBB100DC9A17 /* Frameworks */,
@@ -158,6 +167,25 @@
 				CAE97B1019A6EBB100DC9A17 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CAE97B1D19A6F01600DC9A17 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				CAE97B1E19A6F02300DC9A17 /* tabbar */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		CAE97B1E19A6F02300DC9A17 /* tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				CAE97B2319A6F16000DC9A17 /* company-32.png */,
+				CAE97B2419A6F16000DC9A17 /* friendly-32.png */,
+				CAE97B2519A6F16000DC9A17 /* taste-32.png */,
+				CAE97B2619A6F16000DC9A17 /* timeline-32.png */,
+			);
+			name = tabbar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,9 +266,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAE97AF919A6EBB100DC9A17 /* Main_iPad.storyboard in Resources */,
+				CAE97B2719A6F16000DC9A17 /* company-32.png in Resources */,
 				CAE97B0119A6EBB100DC9A17 /* Images.xcassets in Resources */,
+				CAE97B2A19A6F16000DC9A17 /* timeline-32.png in Resources */,
+				CAE97B2919A6F16000DC9A17 /* taste-32.png in Resources */,
 				CAE97AF619A6EBB100DC9A17 /* Main_iPhone.storyboard in Resources */,
 				CAE97AED19A6EBB100DC9A17 /* InfoPlist.strings in Resources */,
+				CAE97B2819A6F16000DC9A17 /* friendly-32.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
