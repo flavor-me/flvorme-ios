@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAE97AE319A6EBB100DC9A17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE97AE219A6EBB100DC9A17 /* Foundation.framework */; };
+		CAE97AE519A6EBB100DC9A17 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE97AE419A6EBB100DC9A17 /* CoreGraphics.framework */; };
+		CAE97AE719A6EBB100DC9A17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE97AE619A6EBB100DC9A17 /* UIKit.framework */; };
+		CAE97AED19A6EBB100DC9A17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAE97AEB19A6EBB100DC9A17 /* InfoPlist.strings */; };
+		CAE97AEF19A6EBB100DC9A17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE97AEE19A6EBB100DC9A17 /* main.m */; };
+		CAE97AF319A6EBB100DC9A17 /* io_noah_flavormeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE97AF219A6EBB100DC9A17 /* io_noah_flavormeAppDelegate.m */; };
+		CAE97AF619A6EBB100DC9A17 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAE97AF419A6EBB100DC9A17 /* Main_iPhone.storyboard */; };
+		CAE97AF919A6EBB100DC9A17 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAE97AF719A6EBB100DC9A17 /* Main_iPad.storyboard */; };
+		CAE97AFC19A6EBB100DC9A17 /* io_noah_flavormeFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE97AFB19A6EBB100DC9A17 /* io_noah_flavormeFirstViewController.m */; };
+		CAE97AFF19A6EBB100DC9A17 /* io_noah_flavormeSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE97AFE19A6EBB100DC9A17 /* io_noah_flavormeSecondViewController.m */; };
+		CAE97B0119A6EBB100DC9A17 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAE97B0019A6EBB100DC9A17 /* Images.xcassets */; };
+		CAE97B0819A6EBB100DC9A17 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE97B0719A6EBB100DC9A17 /* XCTest.framework */; };
+		CAE97B0919A6EBB100DC9A17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE97AE219A6EBB100DC9A17 /* Foundation.framework */; };
+		CAE97B0A19A6EBB100DC9A17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE97AE619A6EBB100DC9A17 /* UIKit.framework */; };
+		CAE97B1219A6EBB100DC9A17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAE97B1019A6EBB100DC9A17 /* InfoPlist.strings */; };
+		CAE97B1419A6EBB100DC9A17 /* flvormeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE97B1319A6EBB100DC9A17 /* flvormeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAE97B0B19A6EBB100DC9A17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAE97AD719A6EBB100DC9A17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAE97ADE19A6EBB100DC9A17;
+			remoteInfo = flvorme;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAE97ADF19A6EBB100DC9A17 /* flvorme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flvorme.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAE97AE219A6EBB100DC9A17 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CAE97AE419A6EBB100DC9A17 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CAE97AE619A6EBB100DC9A17 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CAE97AEA19A6EBB100DC9A17 /* flvorme-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "flvorme-Info.plist"; sourceTree = "<group>"; };
+		CAE97AEC19A6EBB100DC9A17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CAE97AEE19A6EBB100DC9A17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CAE97AF019A6EBB100DC9A17 /* flvorme-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "flvorme-Prefix.pch"; sourceTree = "<group>"; };
+		CAE97AF119A6EBB100DC9A17 /* io_noah_flavormeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = io_noah_flavormeAppDelegate.h; sourceTree = "<group>"; };
+		CAE97AF219A6EBB100DC9A17 /* io_noah_flavormeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = io_noah_flavormeAppDelegate.m; sourceTree = "<group>"; };
+		CAE97AF519A6EBB100DC9A17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		CAE97AF819A6EBB100DC9A17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		CAE97AFA19A6EBB100DC9A17 /* io_noah_flavormeFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = io_noah_flavormeFirstViewController.h; sourceTree = "<group>"; };
+		CAE97AFB19A6EBB100DC9A17 /* io_noah_flavormeFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = io_noah_flavormeFirstViewController.m; sourceTree = "<group>"; };
+		CAE97AFD19A6EBB100DC9A17 /* io_noah_flavormeSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = io_noah_flavormeSecondViewController.h; sourceTree = "<group>"; };
+		CAE97AFE19A6EBB100DC9A17 /* io_noah_flavormeSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = io_noah_flavormeSecondViewController.m; sourceTree = "<group>"; };
+		CAE97B0019A6EBB100DC9A17 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CAE97B0619A6EBB100DC9A17 /* flvormeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flvormeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAE97B0719A6EBB100DC9A17 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CAE97B0F19A6EBB100DC9A17 /* flvormeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "flvormeTests-Info.plist"; sourceTree = "<group>"; };
+		CAE97B1119A6EBB100DC9A17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CAE97B1319A6EBB100DC9A17 /* flvormeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = flvormeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAE97ADC19A6EBB100DC9A17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE97AE519A6EBB100DC9A17 /* CoreGraphics.framework in Frameworks */,
+				CAE97AE719A6EBB100DC9A17 /* UIKit.framework in Frameworks */,
+				CAE97AE319A6EBB100DC9A17 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAE97B0319A6EBB100DC9A17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE97B0819A6EBB100DC9A17 /* XCTest.framework in Frameworks */,
+				CAE97B0A19A6EBB100DC9A17 /* UIKit.framework in Frameworks */,
+				CAE97B0919A6EBB100DC9A17 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAE97AD619A6EBB100DC9A17 = {
+			isa = PBXGroup;
+			children = (
+				CAE97AE819A6EBB100DC9A17 /* flvorme */,
+				CAE97B0D19A6EBB100DC9A17 /* flvormeTests */,
+				CAE97AE119A6EBB100DC9A17 /* Frameworks */,
+				CAE97AE019A6EBB100DC9A17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAE97AE019A6EBB100DC9A17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAE97ADF19A6EBB100DC9A17 /* flvorme.app */,
+				CAE97B0619A6EBB100DC9A17 /* flvormeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAE97AE119A6EBB100DC9A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAE97AE219A6EBB100DC9A17 /* Foundation.framework */,
+				CAE97AE419A6EBB100DC9A17 /* CoreGraphics.framework */,
+				CAE97AE619A6EBB100DC9A17 /* UIKit.framework */,
+				CAE97B0719A6EBB100DC9A17 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAE97AE819A6EBB100DC9A17 /* flvorme */ = {
+			isa = PBXGroup;
+			children = (
+				CAE97AF119A6EBB100DC9A17 /* io_noah_flavormeAppDelegate.h */,
+				CAE97AF219A6EBB100DC9A17 /* io_noah_flavormeAppDelegate.m */,
+				CAE97AF419A6EBB100DC9A17 /* Main_iPhone.storyboard */,
+				CAE97AF719A6EBB100DC9A17 /* Main_iPad.storyboard */,
+				CAE97AFA19A6EBB100DC9A17 /* io_noah_flavormeFirstViewController.h */,
+				CAE97AFB19A6EBB100DC9A17 /* io_noah_flavormeFirstViewController.m */,
+				CAE97AFD19A6EBB100DC9A17 /* io_noah_flavormeSecondViewController.h */,
+				CAE97AFE19A6EBB100DC9A17 /* io_noah_flavormeSecondViewController.m */,
+				CAE97B0019A6EBB100DC9A17 /* Images.xcassets */,
+				CAE97AE919A6EBB100DC9A17 /* Supporting Files */,
+			);
+			path = flvorme;
+			sourceTree = "<group>";
+		};
+		CAE97AE919A6EBB100DC9A17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAE97AEA19A6EBB100DC9A17 /* flvorme-Info.plist */,
+				CAE97AEB19A6EBB100DC9A17 /* InfoPlist.strings */,
+				CAE97AEE19A6EBB100DC9A17 /* main.m */,
+				CAE97AF019A6EBB100DC9A17 /* flvorme-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CAE97B0D19A6EBB100DC9A17 /* flvormeTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAE97B1319A6EBB100DC9A17 /* flvormeTests.m */,
+				CAE97B0E19A6EBB100DC9A17 /* Supporting Files */,
+			);
+			path = flvormeTests;
+			sourceTree = "<group>";
+		};
+		CAE97B0E19A6EBB100DC9A17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAE97B0F19A6EBB100DC9A17 /* flvormeTests-Info.plist */,
+				CAE97B1019A6EBB100DC9A17 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAE97ADE19A6EBB100DC9A17 /* flvorme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAE97B1719A6EBB100DC9A17 /* Build configuration list for PBXNativeTarget "flvorme" */;
+			buildPhases = (
+				CAE97ADB19A6EBB100DC9A17 /* Sources */,
+				CAE97ADC19A6EBB100DC9A17 /* Frameworks */,
+				CAE97ADD19A6EBB100DC9A17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = flvorme;
+			productName = flvorme;
+			productReference = CAE97ADF19A6EBB100DC9A17 /* flvorme.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAE97B0519A6EBB100DC9A17 /* flvormeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAE97B1A19A6EBB100DC9A17 /* Build configuration list for PBXNativeTarget "flvormeTests" */;
+			buildPhases = (
+				CAE97B0219A6EBB100DC9A17 /* Sources */,
+				CAE97B0319A6EBB100DC9A17 /* Frameworks */,
+				CAE97B0419A6EBB100DC9A17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAE97B0C19A6EBB100DC9A17 /* PBXTargetDependency */,
+			);
+			name = flvormeTests;
+			productName = flvormeTests;
+			productReference = CAE97B0619A6EBB100DC9A17 /* flvormeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAE97AD719A6EBB100DC9A17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = io.noah.flavorme;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = noah;
+				TargetAttributes = {
+					CAE97B0519A6EBB100DC9A17 = {
+						TestTargetID = CAE97ADE19A6EBB100DC9A17;
+					};
+				};
+			};
+			buildConfigurationList = CAE97ADA19A6EBB100DC9A17 /* Build configuration list for PBXProject "flvorme" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAE97AD619A6EBB100DC9A17;
+			productRefGroup = CAE97AE019A6EBB100DC9A17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAE97ADE19A6EBB100DC9A17 /* flvorme */,
+				CAE97B0519A6EBB100DC9A17 /* flvormeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAE97ADD19A6EBB100DC9A17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE97AF919A6EBB100DC9A17 /* Main_iPad.storyboard in Resources */,
+				CAE97B0119A6EBB100DC9A17 /* Images.xcassets in Resources */,
+				CAE97AF619A6EBB100DC9A17 /* Main_iPhone.storyboard in Resources */,
+				CAE97AED19A6EBB100DC9A17 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAE97B0419A6EBB100DC9A17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE97B1219A6EBB100DC9A17 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAE97ADB19A6EBB100DC9A17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE97AFF19A6EBB100DC9A17 /* io_noah_flavormeSecondViewController.m in Sources */,
+				CAE97AF319A6EBB100DC9A17 /* io_noah_flavormeAppDelegate.m in Sources */,
+				CAE97AFC19A6EBB100DC9A17 /* io_noah_flavormeFirstViewController.m in Sources */,
+				CAE97AEF19A6EBB100DC9A17 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAE97B0219A6EBB100DC9A17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE97B1419A6EBB100DC9A17 /* flvormeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAE97B0C19A6EBB100DC9A17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAE97ADE19A6EBB100DC9A17 /* flvorme */;
+			targetProxy = CAE97B0B19A6EBB100DC9A17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAE97AEB19A6EBB100DC9A17 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAE97AEC19A6EBB100DC9A17 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CAE97AF419A6EBB100DC9A17 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAE97AF519A6EBB100DC9A17 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CAE97AF719A6EBB100DC9A17 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAE97AF819A6EBB100DC9A17 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		CAE97B1019A6EBB100DC9A17 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAE97B1119A6EBB100DC9A17 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAE97B1519A6EBB100DC9A17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAE97B1619A6EBB100DC9A17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAE97B1819A6EBB100DC9A17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "flvorme/flvorme-Prefix.pch";
+				INFOPLIST_FILE = "flvorme/flvorme-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CAE97B1919A6EBB100DC9A17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "flvorme/flvorme-Prefix.pch";
+				INFOPLIST_FILE = "flvorme/flvorme-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CAE97B1B19A6EBB100DC9A17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/flvorme.app/flvorme";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "flvorme/flvorme-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "flvormeTests/flvormeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CAE97B1C19A6EBB100DC9A17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/flvorme.app/flvorme";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "flvorme/flvorme-Prefix.pch";
+				INFOPLIST_FILE = "flvormeTests/flvormeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAE97ADA19A6EBB100DC9A17 /* Build configuration list for PBXProject "flvorme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAE97B1519A6EBB100DC9A17 /* Debug */,
+				CAE97B1619A6EBB100DC9A17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAE97B1719A6EBB100DC9A17 /* Build configuration list for PBXNativeTarget "flvorme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAE97B1819A6EBB100DC9A17 /* Debug */,
+				CAE97B1919A6EBB100DC9A17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAE97B1A19A6EBB100DC9A17 /* Build configuration list for PBXNativeTarget "flvormeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAE97B1B19A6EBB100DC9A17 /* Debug */,
+				CAE97B1C19A6EBB100DC9A17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAE97AD719A6EBB100DC9A17 /* Project object */;
+}
